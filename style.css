@@ -37,7 +37,7 @@ img {
     width: auto;
     height: 168px;
     align-self: center;
-    border: solid #02a50275 4px;
+    border: solid #017901a8 4px;
     border-radius: 20px;
     margin: 0px 120px 0px 120px
 }
@@ -47,7 +47,7 @@ img {
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: 20px;
-    border: solid #02a50275 4px;
+    border: solid #017901a8 4px;
     align-items: center;
     padding:0px 16px 0px 16px;
     margin: 0px 120px 0px 120px
@@ -98,4 +98,15 @@ h2 {
     background-color: #017901a8 ;
     padding: 8px;
     border-radius: 20px;
+}
+
+.accreditation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq {
+    display: flex;
+    border: solid red 6px;
+    background-image: ;
 }
