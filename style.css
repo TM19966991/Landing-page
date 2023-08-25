@@ -12,7 +12,7 @@ body {
     border-top-right-radius: 20px;
 }
 
-ul {
+.header-list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -107,6 +107,35 @@ h2 {
 
 .faq {
     display: flex;
-    border: solid red 6px;
-    background-image: ;
+    min-height: fit-content;
+    justify-content: center;
+    
 }
+
+.faq-list {
+    list-style: none;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    gap: 64px;
+    border: solid #017901a8 12px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.faq-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px 16px 32px;
+    background-color: #017901a8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
