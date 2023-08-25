@@ -30,7 +30,7 @@ li {
     background-color: whitesmoke;
     padding: 50px 16px 50px 16px;
     border-radius: 20px;
-    border: solid rgba(173, 216, 230, 0.747) 12px
+    border: solid rgba(173, 216, 230, 0.747) 8px
 }
 
 img {
@@ -74,6 +74,7 @@ h2 {
     justify-content: space-evenly;
     height: 400px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -85,7 +86,7 @@ h2 {
     font-size: 24px;
     border-radius: 20px;
     padding: 16px;
-    border: solid #017901a8 12px;
+    border: solid #017901a8 8px;
     text-align: center;
     background-color: whitesmoke;
 }
@@ -106,7 +107,8 @@ h2 {
     background-color: whitesmoke;
     padding: 16px;
     border-radius: 20px;
-    border: solid rgba(173, 216, 230, 0.747) 12px
+    border: solid rgba(173, 216, 230, 0.747) 8px;
+    flex-wrap: wrap;
 }
 
 .faq {
@@ -122,7 +124,7 @@ h2 {
     flex-direction: column;
     display: flex;
     gap: 64px;
-    border: solid #017901a8 12px;
+    border: solid #017901a8 8px;
     text-align: center;
     background-color: whitesmoke;
     border-radius: 20px;
@@ -140,6 +142,5 @@ h2 {
     justify-content: center;
     padding: 16px 32px 16px 32px;
     background-color: #017901a8;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     }
