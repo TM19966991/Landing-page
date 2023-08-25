@@ -6,10 +6,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 32px 0px 32px;
+    padding: 16px 32px 16px 32px;
     background-color: #017901a8;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 16px;
 }
 
 .header-list {
@@ -27,17 +27,17 @@ li {
 .container {
     display: flex;
     justify-content: space-between;
-    background-color: #017901a8;
+    background-color: whitesmoke;
     padding: 50px 16px 50px 16px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    border: solid rgba(173, 216, 230, 0.747) 12px
 }
 
 img {
     width: auto;
     height: 168px;
     align-self: center;
-    border: solid #017901a8 4px;
+    border: solid rgba(173, 216, 230, 0.747) 4px;
     border-radius: 20px;
     margin: 0px 120px 0px 120px
 }
@@ -47,7 +47,7 @@ img {
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: 20px;
-    border: solid #017901a8 4px;
+    border: solid rgba(173, 216, 230, 0.747) 4px;
     align-items: center;
     padding:0px 16px 0px 16px;
     margin: 0px 120px 0px 120px
@@ -103,6 +103,10 @@ h2 {
 .accreditation {
     display: flex;
     justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 16px;
+    border-radius: 20px;
+    border: solid rgba(173, 216, 230, 0.747) 12px
 }
 
 .faq {
