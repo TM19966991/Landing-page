@@ -1,5 +1,4 @@
 body {
-    margin: 0px 128px 0px 128px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,8 +7,6 @@ body {
     justify-content: space-between;
     padding: 16px 32px 16px 32px;
     background-color: #017901a8;
-    border-radius: 20px;
-    margin-bottom: 16px;
 }
 
 .header-list {
@@ -29,8 +26,6 @@ li {
     justify-content: space-between;
     background-color: whitesmoke;
     padding: 50px 16px 50px 16px;
-    border-radius: 20px;
-    border: solid rgba(173, 216, 230, 0.747) 8px
 }
 
 img {
@@ -38,7 +33,6 @@ img {
     height: 168px;
     align-self: center;
     border: solid rgba(173, 216, 230, 0.747) 4px;
-    border-radius: 20px;
     margin: 0px 120px 0px 120px
 }
 
@@ -46,7 +40,6 @@ img {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    border-radius: 20px;
     border: solid rgba(173, 216, 230, 0.747) 4px;
     align-items: center;
     padding:0px 16px 0px 16px;
@@ -84,7 +77,6 @@ h2 {
     width: 200px;
     height: 200px;
     font-size: 24px;
-    border-radius: 20px;
     padding: 16px;
     border: solid #017901a8 8px;
     text-align: center;
@@ -98,7 +90,6 @@ h2 {
 .book-button {
     background-color: #017901a8 ;
     padding: 8px;
-    border-radius: 20px;
 }
 
 .accreditation {
@@ -106,8 +97,6 @@ h2 {
     justify-content: space-around;
     background-color: whitesmoke;
     padding: 16px;
-    border-radius: 20px;
-    border: solid rgba(173, 216, 230, 0.747) 8px;
     flex-wrap: wrap;
 }
 
@@ -127,7 +116,6 @@ h2 {
     border: solid #017901a8 8px;
     text-align: center;
     background-color: whitesmoke;
-    border-radius: 20px;
     padding: 16px;
 }
 
@@ -142,5 +130,4 @@ h2 {
     justify-content: center;
     padding: 16px 32px 16px 32px;
     background-color: #017901a8;
-    border-radius: 20px;
     }
